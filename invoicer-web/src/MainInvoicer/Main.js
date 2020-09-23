@@ -38,7 +38,7 @@ export class MainInvoicer extends React.Component {
 
     componentDidMount() {
       if (this.state.logged_in) {
-        fetch('http://178.62.11.88/api/current_user/', {
+        fetch('http://207.154.218.15/api/current_user/', {
           headers: {
             Authorization: `JWT ${localStorage.getItem('token')}`
           }
@@ -65,7 +65,7 @@ export class MainInvoicer extends React.Component {
     handle_login = (e, data) => { 
       e.preventDefault();
     
-      fetch('http://178.62.11.88/token-auth/', {
+      fetch('http://207.154.218.15/token-auth/', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',     
@@ -97,7 +97,7 @@ export class MainInvoicer extends React.Component {
   
 
       e.preventDefault();
-      fetch('http://178.62.11.88/api/users/', {
+      fetch('http://207.154.218.15/api/users/', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json'

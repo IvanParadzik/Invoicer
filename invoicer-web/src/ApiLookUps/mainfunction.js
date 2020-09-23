@@ -11,7 +11,7 @@ export function lookUp(method, endpoint, callback,data){
    
     const xhr = new XMLHttpRequest()  
   
-    const url = `http://178.62.11.88/api${endpoint}`
+    const url = `http://207.154.218.15/api${endpoint}`
   
     xhr.responseType = "json"
     xhr.open(method, url)
