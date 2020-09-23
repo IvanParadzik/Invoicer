@@ -1,4 +1,3 @@
-SECRET_KEY = '9^^o-6*aq=1d+fsfsfsfssfsf()$#%$yqcd_os*q2glxb8&tu&2q1uyzq3xo-_fs*@h)'
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
