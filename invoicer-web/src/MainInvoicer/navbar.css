@@ -1,0 +1,177 @@
+
+.main-navbar {
+    position: relative;
+    padding:20px 0x;
+    background-color: grey;
+    width: 70%;
+    top:0%;
+    left: 15%;
+    border: 4px solid #29512B;
+    border-top: none;
+    
+  }
+
+
+
+
+
+#brand-style{
+    position: relative;
+    
+    border-radius: 10px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 200%;
+    color: white;
+
+}
+
+
+.link{
+    margin-right:5px;
+    border:none;
+    background: none;
+
+}
+
+.link:focus{
+    border: none;
+}
+.link:active{
+    border: none;
+}
+
+
+.button-nav{
+    position : relative;
+    padding: 8px 20px;  
+    width: 100%;    
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 900;
+    text-align: center;
+    
+    font-size: 110%;
+    color:white;
+    border: 2px solid;
+    border:none;
+    background: none;
+
+   
+}
+
+
+.button-nav:hover{
+    background: lightgrey;
+    border-radius: 4px;
+
+}
+
+.button-nav:focus{
+    border: none;
+    outline:none;
+}
+
+
+
+
+.toggle:focus{
+    outline:none;
+    background: none;
+}
+.toggle:hover{
+    background: lightgrey;
+    border-radius: 4px;
+
+}
+
+
+
+.dropdown-navbar:hover{
+    background: lightgrey;
+    border-radius: 4px;
+
+}
+
+.dropdown-navbar:focus{
+    border: none;
+    outline:none;
+    background: none;
+}
+
+
+
+#dropdown-navbar{
+
+    font-family: Montserrat;
+
+    color:white;
+  
+    border:none;
+    background: none;
+   
+}
+.dropdown-navbar{
+    position : relative; 
+    width: 100%;    
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 900;
+    text-align: center;
+    justify-content: center;
+    font-size: 110%;
+    color:white;
+    border: 2px solid;
+    border:none;
+    background: none;
+    
+
+   
+}
+
+.item-dropdown-navbar:hover{
+    background: none;
+    color: grey;
+    
+}
+
+
+
+
+
+
+@media screen and (max-width: 1100px){
+   
+    .main-navbar {
+        position: relative;
+        background-color: grey;
+        width: 80%;
+        top:0%;
+        left: 10%;
+        
+    
+    }
+   
+  }
+
+
+  
+@media screen and (max-width: 800px){
+   
+    .main-navbar {
+        position: relative;
+        background-color: grey;
+        width: 100%;
+        top:0%;
+        left: 0%;
+        
+    
+    }
+   
+  }
+
+
+
+
+

@@ -1,0 +1,156 @@
+.singup-panel{
+    position: relative;
+    width: 70%;
+    left: 15%;
+    top: 0px;
+    border:4px solid  #29512B;
+
+    background: rgba(255, 255, 255, 0.85); ;
+}
+
+.singup-text{
+    position: relative;
+    
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 400%;
+  
+    /* or 116% */
+  
+    text-align: center;
+    letter-spacing: -0.015em;
+  
+    color: #29512B;
+  }
+
+.singup-form{
+    
+    position: relative;
+    padding: 50px ;
+    margin-bottom: 50px;
+    left : 25%;
+    width: 50%; 
+    background: #82B183;
+    border: 5px solid #29512B;
+    border-radius: 10px ;
+}
+
+
+.label{
+    position: relative;
+    margin-top: 2px;
+    color : #29512B;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 150%;
+}
+
+
+.input{
+    border: 2px solid  #29512B;
+  
+
+}
+
+.input:focus{
+    outline-color: none;
+    box-shadow: none;
+
+}
+
+
+
+.button-singup{
+    position: relative;
+    margin-top:50px;
+    padding : 8px;
+    width: 50%;
+    left:25%;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 100%;
+    color: white;
+    background: #29512B;
+    border: 2px  solid #29512B;
+    border-radius: 5px;
+
+
+}
+
+.button-singup:hover{
+    background:rgb(115,115,115);
+    color: white;
+    border: 2px  solid #29512B;
+    
+}
+
+
+.button-sungup:focus{
+    border: 2px  solid #29512B;
+    outline: none;
+    box-shadow: none;
+}
+
+
+
+
+@media screen and (max-width: 1100px){
+  
+    .singup-panel{
+        position: relative;
+        width: 80%;
+        left: 10%;
+        
+    }
+    .singup-form{
+    
+        position: relative;
+        left : 15%;
+        width: 70%; 
+        
+    }
+    
+ }
+
+@media screen and (max-width: 800px){
+  
+    .singup-panel{
+        position: relative;
+        width: 100%;
+        left: 0%;
+        
+    }
+    .singup-form{
+    
+        position: relative;
+        left : 15%;
+        width: 70%; 
+        
+    }
+    
+ }
+
+
+
+ @media screen and (max-width: 400px){
+  
+    .singup-panel{
+        position: relative;
+        width: 100%;
+        left: 0%;
+        
+    }
+    .singup-form{
+    
+        position: relative;
+        left : 0%;
+        width: 100%; 
+        border:none;
+        
+    }
+    
+ }
+

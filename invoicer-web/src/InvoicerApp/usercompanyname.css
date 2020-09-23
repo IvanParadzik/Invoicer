@@ -1,0 +1,45 @@
+
+.company-name{
+    position: relative;
+    left: 0%;
+    width: 70%;
+    left: 15%;
+  
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 900;
+    font-size:300% ;
+    /* or 116% */
+    background: rgba(255, 255, 255, 0.85); ;
+    border:4px solid#29512B;
+    text-align: center;
+   
+    color: #29512B;
+  }
+
+
+
+
+
+@media screen and (max-width: 1100px){
+   
+    .company-name{
+        position: relative;
+        left: 0%;
+        width: 80%;
+        left: 10%;
+  }}
+
+
+@media screen and (max-width: 800px){
+  
+    .company-name{
+        position: relative;
+        left: 0%;
+        width: 100%;
+        left: 0%;
+  }
+    
+ }
+
+  

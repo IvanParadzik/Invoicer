@@ -1,0 +1,112 @@
+
+
+
+.button-back-info:hover{
+    background:#82B183;
+  
+    
+}
+
+.button-save-changes:hover{
+   
+    background:#82B183;
+
+    
+}
+
+.delete-button:hover{
+    background:red;
+
+
+}
+
+
+.button-back-info:focus{
+    outline:none;
+    box-shadow:none;
+
+  
+    
+}
+
+.button-save-changes:focus{
+   
+    outline:none;
+    box-shadow: none;
+
+    
+}
+
+.delete-button:focus{
+    outline:none;
+    box-shadow: none;
+
+
+
+}
+
+
+
+.button-back-info{
+    position: relative;
+    left: 25%;
+    padding: 8px;
+    margin-top: 10px;
+    width: 50%;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 100%;
+    color: white;
+    background: grey;
+    border: 4px  solid #29512B;
+    border-radius: 5px;
+
+}
+.button-save-changes{
+    position: relative;
+    padding: 8px;
+    margin-top: 20px;
+    left: 25%;
+    width: 50%;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 100%;
+    color: white;
+    background: grey;
+    border: 4px  solid #29512B;
+    border-radius: 5px;
+}
+
+
+.delete-button{
+    position: relative;
+    padding: 8px;
+    margin-top: 10px;
+    left: 25%;
+    width: 50%;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 100%;
+    color: white;
+    background: grey;
+    border: 4px  solid darkred;
+    border-radius: 5px;
+
+}
+
+
+.client-invoice{
+    position: relative;
+    width: 80%;
+    left: 10%;
+    color : #29512B;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 300;
+  
+    font-size: 150%;
+    background: none;
+}

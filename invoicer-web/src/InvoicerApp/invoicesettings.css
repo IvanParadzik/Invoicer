@@ -1,0 +1,190 @@
+.invoice-settings-panel{
+    position: relative;
+    width: 70%;
+    left: 15%;
+    top: 0px;
+    /* or 116% */
+    border:4px solid  #29512B;
+  
+    background: rgba(255, 255, 255, 0.85); ;
+}
+
+
+
+.settings-text-invoice{
+  position: relative;
+  margin-top: 20px;
+  margin-bottom:10px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 200%;
+text-decoration-line: underline;
+  /* or 116% */
+
+  text-align: center;
+  letter-spacing: -0.015em;
+
+  color:grey;
+}
+
+.invoice-settings-form{
+    
+    position: relative;
+    padding: 50px ;
+    margin-bottom: 50px;
+    left : 25%;
+    width: 50%; 
+    background: none;
+    border: 4px solid #29512B;
+    border-radius: 10px ;
+}
+
+
+.label-settings-invoice{
+    position: relative;
+    margin-top: 2px;
+    color : #29512B;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 150%;
+}
+
+
+.input-settings-invoice{
+    border: 2px solid  #29512B;
+
+}
+
+.input-setting:focus{
+    outline-color: none;
+    box-shadow: none;
+
+}
+
+
+
+.button-back-invoice{
+    position: relative;
+    margin-top:10px;
+    padding : 8px;
+    width: 50%;
+    left:25%;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 100%;
+    color: white;
+    background: grey;
+    border: 4px  solid #29512B;
+    border-radius: 10px;
+
+
+}
+
+.button-back-invoice:hover{
+    background:#82B183;
+    border-color: #29512B;
+    
+}
+
+
+.button-back-invoice:focus{
+    border-color:#29512B;
+    outline: none;
+    box-shadow: none;
+}
+
+
+.button-save-invoice{
+    position: relative;
+    margin-top:50px;
+    padding: 8px;
+    width: 50%;
+    left: 25%;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 100%;
+    color: white;
+    background: grey;
+    border: 4px  solid #29512B;
+    border-radius: 10px;
+
+
+}
+
+.button-save-invoice:hover{
+    background:#82B183;
+    border-color: #29512B;
+    
+}
+
+
+.button-save-invoice:focus{
+    border-color: #29512B;
+    outline: none;
+    box-shadow: none;
+}
+
+
+
+
+
+@media screen and (max-width: 1100px){
+   
+    .invoice-settings-panel{
+        position: relative;
+        width: 80%;
+        left: 10%;
+        
+    }
+    .invoice-settings-form{
+    
+        position: relative;
+        left : 15%;
+        width: 70%; 
+        
+    }
+  }
+
+
+@media screen and (max-width: 800px){
+  
+    .invoice-settings-panel{
+        position: relative;
+        width: 100%;
+        left: 0%;
+        
+    }
+    .invoice-settings-form{
+    
+        position: relative;
+        left : 10%;
+        width: 80%; 
+        
+    }
+    
+ }
+
+  
+
+ @media screen and (max-width: 400px){
+  
+    .user-settings-panel{
+        position: relative;
+        width: 100%;
+        left: 0%;
+        
+    }
+    .user-settings-form{
+    
+        position: relative;
+        left : 0%;
+        width: 100%; 
+        border:none;
+        
+    }
+    
+ }

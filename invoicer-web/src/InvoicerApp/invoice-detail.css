@@ -1,0 +1,440 @@
+
+/*  Panel Css */
+.item-panel{
+
+    position: relative;
+    width : 70%;
+    left: 15%;
+    border: 4px solid #29512B;
+    border-top: none;
+    background :rgba(255, 255, 255, 0.85); ;
+}
+
+
+@media screen and (max-width: 1100px){
+    .item-panel{
+        position: relative;
+        width : 80%;
+        left: 10%;
+      
+    }
+  }
+
+
+
+@media screen and (max-width: 800px){
+    .item-panel{
+        position: relative;
+        width : 100%;
+        left: 0%;
+      
+    }
+  }
+
+
+/* navbar with create and remove button */
+.item-navbar{
+    position: relative;
+    width: 100%;
+    border-top: 4px solid #29512B;
+   
+
+}
+#button-add:hover{
+    background: #82B183;
+    border:4px solid  #29512B;
+}
+.button-add:focus{
+    border:4px solid  #29512B;
+    outline-color: none;
+    box-shadow: none;
+    background:  grey;
+}
+
+
+#button-add:active{
+    border:4px solid  #29512B;
+    outline-color: none;
+    box-shadow: none;
+    background: #82B183;
+}
+
+
+
+
+.button-add{
+    position: relative;
+    margin-top:10px;
+  
+    width: 20%;
+    left: 40%;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 900;
+    font-size:140% ;
+    border:4px solid  #29512B;
+    border-radius: 20px;
+    text-align: center;
+    color : white;
+    background:  grey;
+}
+
+
+
+/* Table with items and buttons for removing and editing item  */
+
+
+.table-items{
+    position: relative;
+   
+    width: 100%;
+    margin-top: 5px;
+    text-align: center;
+   
+    
+}
+
+.table-label{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 900;
+    font-size:160% ; 
+    
+
+    
+}
+
+
+.one-label{
+    border: 4px solid #29512B;
+    border-left:none;  
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 900;
+   
+
+}
+
+.table-slice{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 300;
+    font-size:120% ; 
+    text-align: center;
+    border: 4px solid  #29512B;
+    border-left:none;
+   
+    
+}
+
+
+
+.table-button-edit{
+    position: relative;
+
+    width: 15%;
+  
+
+}
+.table-button-remove{
+    position: relative;
+ 
+    width: 5%;
+  
+
+}
+
+
+#button-edit:hover{
+    background: #82B183;
+    border:4px solid  #29512B;
+}
+.button-edit:focus{
+    border:4px solid  #29512B;
+    outline-color: none;
+    box-shadow: none;
+    background:  grey;
+}
+
+
+#button-edit:active{
+    border:4px solid  #29512B;
+    outline-color: none;
+    box-shadow: none;
+    background: #82B183;
+}
+
+
+.button-edit{
+    position: relative;
+   
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 900;
+    font-size:150% ;
+    border:4px solid  #29512B;
+    border-radius: 5px;
+    text-align: center;
+    color : white;
+    background :grey;
+
+}
+
+#button-remove:hover{
+    background: #82B183;
+    border:4px solid  #29512B;
+}
+.button-remove:focus{
+    border:4px solid  #29512B;
+    outline-color: none;
+    box-shadow: none;
+    background:  grey;
+}
+
+
+#button-remove:active{
+    border:4px solid  #29512B;
+    outline-color: none;
+    box-shadow: none;
+    background: #82B183;
+}
+
+
+.button-remove{
+    position: relative;
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 900;
+    font-size:150% ;
+    border:4px solid  #29512B;
+    border-radius: 5px;
+    text-align: center;
+    color : white;
+    background : grey;
+
+
+}
+
+/* Table With Invoice informations */
+
+
+
+
+#table-info{
+    position: relative;
+    left: 0%;
+    width: 99%;
+    margin-top: 10px;
+    text-align: center;
+   
+    background: none;    
+}
+.one-label-info{
+    border: 4px solid #29512B;
+    border-left:none;
+   
+
+}
+
+
+.table-info-label{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size:140% ; 
+    text-align: center;
+    border:4px solid  #29512B;
+    border-left:none;
+  
+}
+
+.info-label{
+    border: 4px solid  #29512B;
+    border-left:none;
+    
+}
+
+
+
+
+
+@media screen and (max-width: 600px){
+    .button-add{
+        font-size:120% ;
+    }
+    .button-remove{
+        
+        font-size:100% ;
+    }
+    .button-edit{
+        
+        font-size:100% ;
+    }
+    .table-label{
+        font-size:100% ; 
+    }    
+    .table-slice{
+        font-size:100% ;    
+    }
+
+.table-info-label{
+  
+    font-size:120% ; 
+    
+}  
+
+ 
+    
+  }
+/* Modal  */
+
+
+.item-text{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 900;
+    font-size:250% ; 
+    color:#29512B;
+    
+}
+
+.modal-form{
+    position: relative; 
+
+}
+
+.input{
+    border: 2px solid #29512B;
+}
+
+
+#modal-button:hover{
+    background: #82B183;
+    border:4px solid  #29512B;
+}
+.modal-button:focus{
+    border:4px solid  #29512B;
+    outline-color: none;
+    box-shadow: none;
+    background:  grey;
+}
+
+
+#modal-button:active{
+    border:4px solid  #29512B;
+    outline-color: none;
+    box-shadow: none;
+    background: #82B183;
+}
+
+
+.modal-button{
+    position: relative;
+    
+    left:32%;   
+    padding: 5px 10px;
+    margin-top : 20px;
+    background : grey;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 900;
+    font-size:150% ; 
+    border:4px solid #29512B;
+    border-radius: 4px;
+    text-align: center;
+    color: white;
+    
+}
+
+#button-finish:hover{
+    background: #82B183;
+    border:4px solid  #29512B;
+}
+.button-finish:focus{
+    border:4px solid  #29512B;
+    outline-color: none;
+    box-shadow: none;
+    background:  grey;
+}
+
+
+#button-finish:active{
+    border:4px solid  #29512B;
+    outline-color: none;
+    box-shadow: none;
+    background: #82B183;
+}
+
+
+/* finish button */
+.button-finish{
+
+    position: relative;
+    margin-top:10px;
+    margin-bottom:10px;
+    left: 40%;
+    width: 20%;
+    background : grey;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 900;
+    font-size:150% ;
+    border:4px solid  #29512B;
+    border-radius: 20px;
+    text-align: center;
+    color : white;
+
+
+}
+
+#button-remove-invoice:hover{
+    background: red;
+    border:4px solid darkred;
+   
+}
+.button-remove-invoice:focus{
+    border:4px solid  #29512B;
+    outline-color: none;
+    box-shadow: none;
+    background:  grey;
+}
+#button-remove-invoice:active{
+    border:4px solid  #29512B;
+    outline-color: none;
+    box-shadow: none;
+}
+
+
+
+.button-remove-invoice{
+    position: relative;
+    margin-bottom:10px;
+    left: 40%;
+    width: 20%;
+  
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 900;
+    font-size:150% ;
+    border:4px solid darkred;
+    border-radius: 20px;
+    text-align: center;
+    color : white;
+    background : grey;
+}
+
+@media screen and (max-width: 600px){
+    
+    #button-remove-invoice{
+    
+    font-size:90% ;
+   
+    }
+    #button-finish{
+    
+    font-size:90% ;
+   
+    }
+    
+}

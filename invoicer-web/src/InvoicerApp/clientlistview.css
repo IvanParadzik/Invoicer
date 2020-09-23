@@ -1,0 +1,302 @@
+/* NAVBAR  with buttons and search for clients view*/
+
+.navbar-clients{
+    position : relative;
+    width : 70%;
+    left: 15%;
+    border: 4px solid #29512B;
+    background: rgba(255, 255, 255, 0.85); ;
+}
+
+
+.button-group-clients{
+    position: relative;
+    width: 100%;
+    padding: 5px;
+    
+}
+
+
+
+@media screen and (max-width: 1100px){
+    .navbar-clients{
+        position : relative;
+        width : 80%;
+        left: 10%;}
+   
+    
+  }
+
+
+@media screen and (max-width: 800px){
+    .navbar-clients{
+        position : relative;
+        width : 100%;
+        left: 0%;}
+    
+ }
+
+
+#button-create-client:hover{
+    background: #82B183;
+    border-color: #29512B;
+}
+
+.button-create-client{
+    position : relative;
+    width:  25%;
+    left: 5%;
+    border:4px solid #29512B;
+    border-radius: 10px;
+  } 
+
+#button-create-client{
+  text-decoration:none;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 900;
+  font-size:120% ;
+  padding: 5px 10px;
+  background : grey;    
+  text-align: center;
+  
+  color: white;
+}
+
+#dropdown-clients:hover{
+    background: #82B183;
+    border-color:  #29512B;
+}
+
+#dropdown-clients:focus{
+    outline: none;
+    box-shadow: none;
+}
+
+  
+.dropdown-clients{
+    position : absolute;
+    
+    left:38%;
+    width: 25%;
+}
+  
+#dropdown-clients{
+  position : relative;
+  width: 100%;
+  padding: 5px 10px;
+  background:  grey;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 900;
+  font-size:120% ;
+  border:4px solid #29512B;
+  border-radius: 10px;
+
+
+   
+  }
+
+
+.item-invoice:hover{
+    background: #29512B; 
+    color:white;
+
+}
+.item-invoice{ 
+  position : relative;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 900;
+  font-size:100% ;
+  color:#29512B; 
+}
+
+
+
+
+
+.searchFiled:focus{
+    outline: none;
+    box-shadow: none;
+}
+
+
+
+.searchFiled{
+    position: absolute;
+    padding: 5px 10px;
+    width: 25%;
+    right: 5%;
+    border:4px solid #29512B; 
+    border-radius: 10px;
+    text-align: center;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 900;
+    font-size:120% ;
+    color: grey;
+}
+
+@media screen and (max-width: 600px){
+   
+    #button-create-client{
+      font-size:80% ;
+     
+    }
+    #dropdown-clients{
+    font-size:80% ;
+      }
+    .searchFiled{    
+    font-size:80% ;
+    }
+
+}
+    
+/*  CLIENT  */ 
+
+.client{ 
+    position: relative;
+    padding: 5px 0px;
+    border :2px solid  #29512B;
+    border-right: 4px solid #29512B;
+    border-left: 4px solid #29512B;
+    border-top: none;
+    width: 70%;
+    left: 15%;
+    
+    background: rgba(255, 255, 255, 0.85); ;
+}
+
+
+.client-button:hover{   
+    background : #82B183;
+    border-color: #29512B;
+    color:white;
+}
+
+
+.client-button:focus{
+    background : none;
+    outline: none;
+    box-shadow: none;
+}
+
+
+
+
+
+.client-button{
+    position: relative;
+    width: 70%;
+    left: 15%;
+    border:4px solid #82B183;
+    border-radius: 4px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 900;
+   
+    text-align: center;
+    color : #29512B;
+    background: none;      
+}
+
+.company-text{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 900;
+    font-size : 250%;
+    
+}
+
+.sum-text{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 300;
+    font-size : 200%;
+    
+}
+
+
+
+.create-invoice-button:hover{
+    background : #82B183;
+    border-color: #29512B;
+    
+}
+
+.create-invoice-button:focus{
+    outline: none;
+    box-shadow: none;
+    
+}
+
+.create-invoice-button{
+    position: relative;
+    width: 10%;
+    left: 17%;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 900;
+    font-size:200% ;
+    border:4px solid  #29512B;
+    border-radius: 100px;
+    text-align: center;
+    color : white;
+    background:  grey;
+
+}
+
+
+
+@media screen and (max-width: 600px){
+   
+    #button-create-client{
+      font-size:80% ;
+     
+    }
+    #dropdown-clients{
+    font-size:80% ;
+      }
+    .searchFiled{    
+    font-size:80% ;
+    }
+    .company-text{
+   
+        font-size : 120%;
+        
+    }
+    
+    .sum-text{
+      
+        font-size : 120%;
+        
+    }
+    .create-invoice-button{
+       
+        font-size:150% ;
+       
+    
+    }
+
+}
+    
+
+@media screen and (max-width: 1100px){
+    .client{
+        position: relative;
+        width: 80%;
+        left: 10%;
+      
+    }}
+
+
+@media screen and (max-width: 800px){
+    .client{
+        position: relative;
+        width: 100%;
+        left: 0%;
+      
+    }}
+    
+ 
